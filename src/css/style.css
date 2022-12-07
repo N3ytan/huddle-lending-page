@@ -1,0 +1,119 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    background-image: url(../images/bg-desktop.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: hsl(257, 40%, 49%);
+  }
+  
+  html {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 1280px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .description {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+  }
+  
+  .description,
+  h1,
+  p {
+    margin: 0px 0px 30px;
+    color: #fff;
+  }
+  
+  .description h1 {
+    font-weight: 600;
+    line-height: 50px;
+  }
+  
+  .description p {
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .btn {
+    width: 150px;
+    min-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 35px;
+    border: #fff;
+    cursor: pointer;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    transition: 0.7s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: hsl(300, 65%, 68%);
+    color: #fff;
+  }
+
+  .footer{
+    width: 1280px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social{
+    display: flex;
+    justify-content: left;
+    justify-content:space-evenly;
+    gap: 20px;
+    color: #fff;
+    border: #fff;
+    margin-top: 150px;
+  }
+  
+  .fa-brands{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+  }
+  
+  .fa-brands:hover{
+    color: hsl(300, 65%, 68%);
+  }
+  
+  .fa-brands:nth-child(1):hover{
+    border-color: hsl(300, 65%, 68%);
+  }
+  
+  .fa-brands:nth-child(2):hover{
+    border-color: hsl(300, 65%, 68%);
+  }
+  
+  .fa-brands:nth-child(3):hover{
+    border-color: hsl(300, 65%, 68%);
+  }

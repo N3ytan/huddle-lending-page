@@ -1,0 +1,166 @@
+@media (max-width: 1300px){
+    .container{
+      width: 1100px;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .ilustration-img{
+      width: 450px;
+    }
+  
+    .description{
+      width: 450px;
+      height: 300px;
+    }
+  
+    .btn{
+      margin: 0px 155px 0px;
+    }
+
+    .footer{
+      height: 60px;
+    }
+  }
+  
+  @media (max-width: 1024px){
+    body{
+      overflow: hidden;
+    }
+
+    .container{
+      width: 900px;
+      height: 530px;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .ilustration-img{
+      width: 350px;
+    }
+  
+    .description{
+      width: 400px;
+      height: 300px;
+    }
+  
+    .btn{
+      margin: 0px 122px 0px;
+      height: 30px;
+    }
+    
+  }
+    
+  @media (max-width: 880px){
+    .container{
+      width: 700px;
+      gap: 10px;
+    }
+  
+    .description{
+      width:530px;
+    }
+
+    .btn{
+      margin: 40px 200px;
+    }
+
+    .social{
+      margin-right: 240px;
+      padding-top: 10px;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+    body{
+      background-image: url(../images/bg-mobile.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: hsl(257, 40%, 49%);
+
+      overflow: auto;
+    }
+  
+    .container{
+      width: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .description{
+      width: 400px;
+      padding: 0px;
+      text-align: center;
+    }
+  
+    .btn{
+      margin-left: 120px;
+    }
+  
+    .social{
+      width: 300px;
+      margin-left: 142px;
+      text-align: center;
+    }
+  
+    .ilustration-img{
+      width: 450px;
+      margin-top: 20px;
+    }
+
+    .social{
+      margin: 40px 40px 40px 40px;
+    }
+  }
+  
+  @media (max-width: 425px){
+    .container{
+      width: 100px;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .ilustration-img{
+      width: 200px;
+    }
+  
+    .description{
+      width: 300px;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      height: 450px;
+    }
+  
+    .description h1,
+    p{
+      margin: 15px;
+    }
+  
+    .btn{
+      margin: 40px;
+      margin-top: 0px ;
+    }
+  
+    .social{
+      margin: 0;
+      width: 140px;
+    }
+  
+    .fa-brands{
+      width: 40px;
+      height: 40px;
+      padding-top: 10px;
+    }
+  }
